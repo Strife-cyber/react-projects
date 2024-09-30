@@ -1,4 +1,4 @@
-html, body, .container-fluid {
+#body-gradient {
     height: 100%;
     background: linear-gradient(180deg, #EFA173 0%, rgba(247, 201, 107, 0.79) 50%, rgba(255, 255, 255, 0) 100%);
 }

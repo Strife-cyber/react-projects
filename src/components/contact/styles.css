@@ -1,0 +1,66 @@
+body {
+    background: linear-gradient(180deg, #EFA173 0%, rgba(247, 201, 107, 0.79) 50%, rgba(255, 255, 255, 0) 100%);
+    font-family: Arial, sans-serif;
+}
+
+.white-box {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    height: 80%;
+}
+
+.white-box h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.white-box input[type="email"],
+.white-box input[type="password"],
+.white-box input[type="text"] {
+    width: 40%;
+    height: 35px;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s;
+}
+
+.white-box input[type="email"]:focus,
+.white-box input[type="password"]:focus,
+.white-box input[type="text"]:focus {
+    border-color: orange;
+    outline: none; /* Removes the default outline */
+}
+
+.white-box h2 {
+    font-size: 15px;
+    font-weight: 100;
+}
+
+#comments {
+    width: 40%;
+    height: 280px;
+    margin-bottom: 2%;
+    padding-left: 15%;
+}
+
+.white-box input[type="submit"] {
+    width: 15%;
+    height: 5%;
+    background-color: orange;
+    margin-left: 10%;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.white-box input[type="submit"]:hover {
+    background-color: #FF8C00;
+}

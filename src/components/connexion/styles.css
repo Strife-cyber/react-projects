@@ -1,0 +1,37 @@
+body {
+    background: linear-gradient(180deg, #EFA173 0%, rgba(247, 201, 107, 0.79) 50%, rgba(255, 255, 255, 0) 100%);
+    font-family: Arial, sans-serif;
+}
+
+.white-box {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+
+h5 {
+    color: #555;
+}
+
+h6 {
+    margin-top: 15px;
+    color: #555;
+    cursor: pointer;
+    text-align: center;
+}
+
+.mot {
+    color: orange;
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+#entry{
+    width: 100%;
+    border-radius: 5px;
+}

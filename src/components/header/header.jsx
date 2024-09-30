@@ -1,8 +1,31 @@
 import React from "react";
 import logo from '../../assets/logo.png';
 import './header.css'
+import { useNavigate } from "react-router-dom";
 
 const HeaderComponent = () => {
+    const navigate = useNavigate();
+
+    const gotoHome = () => {
+        navigate('/');
+    }
+
+    const gotocer = () => {
+        navigate('/favoris');
+    }
+
+    const gotofavoris = () => {
+        navigate('/favoris');
+    }
+
+    const gotogestion = () => {
+        navigate('/gestion');
+    }
+
+    const gotoconnexion = () => {
+        navigate('/connexion');
+    }
+
     return (
         <nav className="navbar navbar-expand-md" id="header">
             <div className="container-fluid" id="nav-items">
@@ -15,19 +38,19 @@ const HeaderComponent = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link" href="#Home" /*Add link here*/>Accueil</a>
+                            <a className="nav-link" href="#Home" onClick={gotoHome}>Accueil</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#Home">CERs</a>
+                            <a className="nav-link" href="#Home" onClick={gotocer}>CERs</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#Home">Mes CER Favoris</a>
+                            <a className="nav-link" href="#Home" onClick={gotofavoris}>Mes CER Favoris</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#Home">Gestion de CER</a>
+                            <a className="nav-link" href="#Home" onClick={gotogestion}>Gestion de CER</a>
                         </li>
                     </ul>
-                    <button className="btn btn-primary" id="connexion">Connexion</button>
+                    <button className="btn btn-primary" id="connexion" onClick={gotoconnexion}>Connexion</button>
                 </div>
             </div>
         </nav>

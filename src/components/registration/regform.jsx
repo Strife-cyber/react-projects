@@ -4,7 +4,7 @@ import passwordamico from '../../assets/My password-amico 1.jpg';
 
 const RegistrationForm = () => {
     return (
-        <div className='container-fluid'>
+        <div className='container-fluid' id="body-gradient">
             <div className="white-box container mt-5 mb-5">
                 <div className="row">
                     <div className="col-lg-6 col-md-12 left-box">
