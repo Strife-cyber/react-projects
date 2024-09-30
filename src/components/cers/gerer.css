@@ -1,0 +1,29 @@
+/* main.css */
+.container-fluid{
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: rgb(243, 243, 243);
+}
+
+.place {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.filter {
+    font-size: 1.2rem;
+}
+
+.add-cer {
+    margin: 20px 0;
+}
+
+.btn {
+    min-width: 120px; /* Ensure buttons have a minimum width */
+}

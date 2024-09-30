@@ -1,0 +1,57 @@
+html, body, .container-fluid {
+    height: 100%;
+    background: linear-gradient(180deg, #EFA173 0%, rgba(247, 201, 107, 0.79) 50%, rgba(255, 255, 255, 0) 100%);
+}
+
+.white-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    background-color: white; /* Added background for contrast */
+    padding: 20px; /* Added padding for aesthetics */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.left-box {
+    flex: 1; /* Allows the left box to take space */
+}
+
+.right-box {
+    flex: 1; /* Allows the right box to take space */
+}
+
+h1, h5 {
+    margin: 10px 0; /* Consistent margin for headings */
+}
+
+.entry-box, .combo-box, .password-box {
+    margin-bottom: 15px; /* Space between input fields */
+}
+
+input[type="text"], input[type="password"], select {
+    width: 100%; /* Full width for inputs */
+    padding: 10px; /* Added padding for comfort */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+input[type="submit"] {
+    background-color: orange;
+    color: white;
+    border: none;
+    width: 100%; /* Full width */
+    height: 40px; /* Increased height for better UX */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor for clickable elements */
+}
+
+.right-box img {
+    width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+p {
+    margin-top: 15px; /* Space above the paragraph */
+}

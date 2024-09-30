@@ -1,0 +1,32 @@
+#header{
+    background-color: rgb(243, 243, 243);
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.navbar-brand{
+    margin-left: 8%;
+
+    img{
+        width: 120px;
+    }
+}
+
+#navbarSupportedContent{
+    justify-content: space-between;
+    margin-left: 15%;
+
+    .nav-link{
+        color: black;
+        font-weight: bold;
+        font-size: 13px;
+        margin-right: 25px;
+    }
+
+    button{
+        background-color: orange;
+        color: white;
+        border: none;
+        margin-right: 8%;
+    }
+}
