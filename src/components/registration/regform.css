@@ -30,18 +30,18 @@ h1, h5 {
     margin-bottom: 15px; /* Space between input fields */
 }
 
-input[type="text"], input[type="password"], select {
+#nom-complet, #mail, #passe, select {
     width: 100%; /* Full width for inputs */
     padding: 10px; /* Added padding for comfort */
     border: 1px solid #ccc; /* Light border */
     border-radius: 5px; /* Rounded corners */
 }
 
-input[type="submit"] {
+#submit-cre {
     background-color: orange;
     color: white;
     border: none;
-    width: 100%; /* Full width */
+    width: 80%; /* Full width */
     height: 40px; /* Increased height for better UX */
     border-radius: 5px; /* Rounded corners */
     cursor: pointer; /* Pointer cursor for clickable elements */
