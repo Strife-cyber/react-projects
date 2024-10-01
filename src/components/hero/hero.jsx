@@ -18,7 +18,7 @@ const HeroComponent = () => {
             </div>
 
             {/* Head Container */}
-            <div className="head-container d-flex justify-content-center align-items-start">
+            <div className="head-container d-flex justify-content-center">
                 <img src={heroImage} alt="Abstract Line" className="hero-image"/>
                 <h1 className="hero-title">Bienvenue sur Archiva, votre espace</h1>
             </div>
